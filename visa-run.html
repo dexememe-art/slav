@@ -1,0 +1,1153 @@
+<title>Визаран из Вьетнама</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+
+<style>
+  :root {
+    --ground:      #F2F5F4;
+    --surface:     #FFFFFF;
+    --surface-2:   #E8EEED;
+    --ink:         #0D1719;
+    --ink-2:       #3D4E50;
+    --ink-3:       #6B7C7E;
+    --rule:        #CBD8D7;
+    --rule-soft:   #DEE7E6;
+    --accent:      #0B5F66;
+    --accent-ink:  #FFFFFF;
+    --accent-wash: #DDECEB;
+    --ok:          #2C6B4E;
+    --ok-wash:     #DCEBE0;
+    --warn:        #9A5F0C;
+    --warn-wash:   #F6E9D2;
+    --stop:        #9E2F24;
+    --stop-wash:   #F4DEDA;
+    --shadow:      0 1px 2px rgba(13,23,25,.05), 0 8px 24px -16px rgba(13,23,25,.28);
+
+    --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --f-body:    "IBM Plex Sans", "Segoe UI", Roboto, sans-serif;
+    --f-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #0B1214;
+      --surface:     #131E20;
+      --surface-2:   #1B292B;
+      --ink:         #E4EDEC;
+      --ink-2:       #A9BCBB;
+      --ink-3:       #7C908F;
+      --rule:        #2B3B3D;
+      --rule-soft:   #223032;
+      --accent:      #58B7BC;
+      --accent-ink:  #06181A;
+      --accent-wash: #16302F;
+      --ok:          #6CC08E;
+      --ok-wash:     #17301F;
+      --warn:        #E0A857;
+      --warn-wash:   #33270F;
+      --stop:        #E58275;
+      --stop-wash:   #34191A;
+      --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.9);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      #0B1214;
+    --surface:     #131E20;
+    --surface-2:   #1B292B;
+    --ink:         #E4EDEC;
+    --ink-2:       #A9BCBB;
+    --ink-3:       #7C908F;
+    --rule:        #2B3B3D;
+    --rule-soft:   #223032;
+    --accent:      #58B7BC;
+    --accent-ink:  #06181A;
+    --accent-wash: #16302F;
+    --ok:          #6CC08E;
+    --ok-wash:     #17301F;
+    --warn:        #E0A857;
+    --warn-wash:   #33270F;
+    --stop:        #E58275;
+    --stop-wash:   #34191A;
+    --shadow:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.9);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px 96px;
+  }
+
+  /* ---------- masthead ---------- */
+
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 40px 0 18px;
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(34px, 6vw, 58px);
+    line-height: 1.02;
+    letter-spacing: -.025em;
+    margin: 10px 0 12px;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 17px;
+    color: var(--ink-2);
+    max-width: 62ch;
+    margin: 0;
+  }
+
+  /* ---------- constraint strip ---------- */
+
+  .params {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 26px 0 0;
+  }
+  .param {
+    background: var(--surface);
+    padding: 12px 14px;
+  }
+  .param dt {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 4px;
+  }
+  .param dd {
+    margin: 0;
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -.01em;
+  }
+  .param dd small {
+    display: block;
+    font-family: var(--f-body);
+    font-weight: 400;
+    font-size: 12.5px;
+    color: var(--ink-3);
+    letter-spacing: 0;
+  }
+
+  /* ---------- sections ---------- */
+
+  section { margin-top: 56px; }
+
+  h2 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(22px, 3.2vw, 30px);
+    letter-spacing: -.02em;
+    line-height: 1.15;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+  .sec-head {
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+  }
+  .sec-head p {
+    margin: 6px 0 0;
+    color: var(--ink-2);
+    max-width: 68ch;
+  }
+
+  h3 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -.012em;
+    margin: 32px 0 10px;
+  }
+
+  p { margin: 0 0 12px; max-width: 74ch; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  strong { font-weight: 600; }
+  code, .m { font-family: var(--f-mono); font-size: .93em; }
+
+  /* ---------- findings ---------- */
+
+  .findings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    gap: 18px;
+  }
+  .finding {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--accent);
+    padding: 16px 18px 18px;
+    box-shadow: var(--shadow);
+  }
+  .finding.is-stop { border-top-color: var(--stop); }
+  .finding h4 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 15.5px;
+    letter-spacing: -.01em;
+    margin: 0 0 7px;
+  }
+  .finding p { font-size: 14px; margin: 0; color: var(--ink-2); max-width: none; }
+  .finding p + p { margin-top: 8px; }
+
+  /* ---------- tables ---------- */
+
+  .scroller {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    margin-bottom: 10px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 720px;
+    font-size: 14px;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding: 12px 14px 8px;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule);
+  }
+  thead th {
+    text-align: left;
+    font-family: var(--f-mono);
+    font-weight: 600;
+    font-size: 10.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    padding: 10px 14px;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+    vertical-align: bottom;
+  }
+  tbody td {
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .place { font-weight: 600; }
+  .place span {
+    display: block;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .06em;
+    color: var(--ink-3);
+  }
+  td.note { color: var(--ink-2); font-size: 13.5px; min-width: 240px; }
+
+  /* status stripe encodes visa friction */
+  tr.s-free  td:first-child { box-shadow: inset 3px 0 0 var(--ok); }
+  tr.s-paid  td:first-child { box-shadow: inset 3px 0 0 var(--warn); }
+  tr.s-block td:first-child { box-shadow: inset 3px 0 0 var(--stop); }
+  tr.s-block td { color: var(--ink-3); }
+  tr.s-block .place { color: var(--ink-2); }
+
+  .chip {
+    display: inline-block;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .04em;
+    padding: 2px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .c-free  { background: var(--ok-wash);   color: var(--ok); }
+  .c-paid  { background: var(--warn-wash); color: var(--warn); }
+  .c-block { background: var(--stop-wash); color: var(--stop); }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 12.5px;
+    color: var(--ink-3);
+    margin: 0 0 26px;
+    padding: 0;
+    list-style: none;
+  }
+  .legend li { display: flex; align-items: center; gap: 7px; }
+  .key { width: 12px; height: 3px; display: inline-block; }
+
+  /* ---------- itinerary strips ---------- */
+
+  .plan {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  .plan > header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 16px;
+    padding: 13px 18px;
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .plan.alt > header { background: var(--ink); color: var(--ground); }
+  .plan > header h4 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -.01em;
+    margin: 0;
+  }
+  .plan > header .tag {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    opacity: .82;
+  }
+  .legs { padding: 4px 0; }
+  .leg {
+    display: grid;
+    grid-template-columns: 92px minmax(160px, 1fr) minmax(140px, .9fr) minmax(120px, .7fr);
+    gap: 4px 16px;
+    padding: 11px 18px;
+    border-bottom: 1px solid var(--rule-soft);
+    align-items: baseline;
+  }
+  .leg:last-child { border-bottom: 0; }
+  .leg-date {
+    font-family: var(--f-mono);
+    font-size: 12.5px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-2);
+  }
+  .leg-date span { display: block; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+  .route {
+    font-family: var(--f-mono);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .04em;
+  }
+  .route .arw { color: var(--accent); font-weight: 400; padding: 0 3px; }
+  .route span { display: block; font-family: var(--f-body); font-weight: 400; font-size: 12.5px; letter-spacing: 0; color: var(--ink-3); }
+  .leg-op { font-size: 13.5px; color: var(--ink-2); }
+  .leg-op span { display: block; font-family: var(--f-mono); font-size: 11.5px; color: var(--ink-3); }
+  .leg-cost { font-family: var(--f-mono); font-size: 13.5px; font-variant-numeric: tabular-nums; text-align: right; }
+  .plan > footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 24px;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background: var(--surface-2);
+    border-top: 1px solid var(--rule);
+    font-size: 13.5px;
+  }
+  .plan > footer b { font-family: var(--f-mono); font-weight: 600; }
+
+  @media (max-width: 720px) {
+    .leg { grid-template-columns: 1fr 1fr; }
+    .leg-cost { text-align: left; }
+  }
+
+  /* ---------- callouts ---------- */
+
+  .callout {
+    border-left: 3px solid var(--warn);
+    background: var(--warn-wash);
+    padding: 13px 16px;
+    margin: 18px 0;
+    font-size: 14px;
+  }
+  .callout.crit { border-left-color: var(--stop); background: var(--stop-wash); }
+  .callout.info { border-left-color: var(--accent); background: var(--accent-wash); }
+  .callout p { margin: 0; max-width: none; }
+  .callout p + p { margin-top: 8px; }
+  .callout b { font-weight: 600; }
+
+  /* ---------- ordered algorithm ---------- */
+
+  ol.steps { list-style: none; counter-reset: s; padding: 0; margin: 0; }
+  ol.steps > li {
+    counter-increment: s;
+    position: relative;
+    padding: 0 0 22px 52px;
+    border-left: 1px solid var(--rule);
+    margin-left: 15px;
+  }
+  ol.steps > li:last-child { border-left-color: transparent; padding-bottom: 0; }
+  ol.steps > li::before {
+    content: counter(s, decimal-leading-zero);
+    position: absolute;
+    left: -15px;
+    top: -2px;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--ground);
+    font-family: var(--f-mono);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50%;
+  }
+  ol.steps h4 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 2px 0 6px;
+    letter-spacing: -.01em;
+  }
+  ol.steps p { font-size: 14px; margin: 0 0 8px; }
+  ol.steps ul { margin: 0; padding-left: 18px; font-size: 14px; color: var(--ink-2); }
+  ol.steps li li { margin-bottom: 3px; }
+
+  ul.plain { padding-left: 18px; max-width: 74ch; }
+  ul.plain li { margin-bottom: 7px; }
+
+  /* ---------- footer ---------- */
+
+  .sources {
+    margin-top: 60px;
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+  .sources h3 { font-size: 14px; margin: 0 0 10px; }
+  .sources ul { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 32px; }
+  .sources li { margin-bottom: 6px; break-inside: avoid; }
+  @media (max-width: 640px) { .sources ul { columns: 1; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Досье по маршруту · паспорт RB · подготовлено 07.09.2026</div>
+    <h1>Визаран из Вьетнама</h1>
+    <p class="standfirst">5–7 дней в Азии с обнулением статуса пребывания, вокруг фиксированной даты 26 сентября. Расчёт под белорусский паспорт, оплату через PayPal и вылет из Нячанга, Дананга или Хошимина.</p>
+
+    <dl class="params">
+      <div class="param"><dt>Паспорт</dt><dd>Беларусь<small>обычный, не служебный</small></dd></div>
+      <div class="param"><dt>Статус во Вьетнаме до</dt><dd>30.09.2026<small>выехать строго раньше</small></dd></div>
+      <div class="param"><dt>Фиксированная дата</dt><dd>26.09 · сб<small>джиу-джитсу, Нячанг</small></dd></div>
+      <div class="param"><dt>Вылет</dt><dd>CXR · DAD · SGN<small>комбинации разрешены</small></dd></div>
+      <div class="param"><dt>Возврат</dt><dd>любой хаб<small>DAD · CXR · SGN · HAN</small></dd></div>
+      <div class="param"><dt>Оплата</dt><dd>только PayPal<small>жёсткое ограничение</small></dd></div>
+    </dl>
+  </header>
+
+  <div class="callout info">
+    <p><b>О цифрах в этом документе.</b> Цены — исследованные диапазоны по маршрутам на сентябрь-октябрь 2026 (Kayak / Skyscanner / Expedia / AirAsia MOVE / Trip.com), а не живые котировки на ваши конкретные даты. Живой фары-поиск из этой среды недоступен, поэтому финальная цифра проверяется вами по ссылкам на шаге 3 алгоритма. Визовые правила проверены по источникам сентября 2026 и перечислены внизу; строки с пометкой <span class="chip c-paid">проверить</span> опираются на одиночный источник и требуют подтверждения на сайте посольства.</p>
+  </div>
+
+  <!-- ================= FINDINGS ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Четыре вывода, которые определяют весь маршрут</h2>
+      <p>Это не общие соображения — каждый пункт напрямую вычёркивает или включает конкретные варианты ниже.</p>
+    </div>
+
+    <div class="findings">
+      <div class="finding">
+        <h4>Возврат даёт новые 45 дней, а не остаток старых</h4>
+        <p>Беларусь входит в список 13 стран одностороннего безвиза Вьетнама — <b>45 дней</b> с 15.08.2023. Требование «пауза 30 дней между безвизовыми въездами» отменено с 01.07.2020: можно вернуться хоть на следующий день.</p>
+        <p>Значит визаран действительно обнуляет счётчик, и глубина поездки (5 или 7 дней) на результат не влияет — влияет только дата возврата.</p>
+      </div>
+
+      <div class="finding">
+        <h4>Сценарий Б выигрывает у А по всем трём осям</h4>
+        <p>Вылет 15–18.09 сжигает ~6 оплаченных дней текущего разрешения и ставит перелёт за 1–3 дня до схватки. Вылет 27–28.09 использует разрешение до конца, добавляет 45 дней сверху и превращает поездку в восстановление после турнира.</p>
+        <p>Плюс к этому: до 16.09 остаётся 9 дней, до 27.09 — 20. На лоукостерах это разница в цене примерно в полтора раза.</p>
+      </div>
+
+      <div class="finding">
+        <h4>Бали открылся дважды — и визово, и по рейсам</h4>
+        <p>Индонезия ввела <b>30-дневный безвиз для граждан РБ с июля 2026</b> (раньше была платная VoA). Одновременно AirAsia Indonesia с 20.03.2026 летает <b>Дананг ↔ Денпасар</b> напрямую, 4 раза в неделю.</p>
+        <p>Совпадение этих двух событий и делает Бали лучшим соотношением «цена / качество отдыха» именно в этом окне.</p>
+      </div>
+
+      <div class="finding is-stop">
+        <h4>Половина «очевидных» направлений закрыта, и это ломает пересадки</h4>
+        <p>Филиппины, Япония, Корея, Тайвань, Сингапур требуют визу заранее. Отсюда жёсткое правило: <b>самостоятельная пересадка возможна только там, куда вы можете въехать</b> — она требует прохождения паспортного контроля.</p>
+        <p>Рабочие хабы для self-transfer: <b>KUL, HKG, материковый Китай</b>. Через SIN, TPE, ICN, MNL — только единым билетом со стерильным транзитом.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VISA MATRIX ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Визовый режим для паспорта Республики Беларусь</h2>
+      <p>Полоса слева от строки кодирует трение на границе: зелёная — ничего не платите и не оформляете заранее; жёлтая — платный или предварительный документ; красная — виза только через посольство, для визарана непригодно.</p>
+    </div>
+
+    <ul class="legend">
+      <li><span class="key" style="background:var(--ok)"></span> безвиз или бесплатный документ</li>
+      <li><span class="key" style="background:var(--warn)"></span> платно / оформлять заранее</li>
+      <li><span class="key" style="background:var(--stop)"></span> виза через посольство — вычёркиваем</li>
+    </ul>
+
+    <div class="scroller">
+      <table>
+        <caption>Азиатские направления в радиусе прямого или однопересадочного перелёта из Вьетнама</caption>
+        <thead>
+          <tr>
+            <th>Страна / территория</th>
+            <th>Режим</th>
+            <th>Срок</th>
+            <th>Стоимость</th>
+            <th>Что нужно сделать</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="s-free">
+            <td class="place">Малайзия<span>KUL · PEN · LGK · BKI</span></td>
+            <td><span class="chip c-free">безвиз</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">MDAC (цифровая карта прибытия) онлайн, бесплатно, не ранее чем за 3 дня до въезда.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Индонезия<span>DPS · LOP · CGK</span></td>
+            <td><span class="chip c-free">безвиз</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Введён в июле 2026 по итогам договорённостей в Джакарте. До этого была платная VoA 500 000 IDR. Нужна электронная декларация All Indonesia (SATUSEHAT / e-CD).</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Китай, материк<span>SYX · CAN · SZX · CTU</span></td>
+            <td><span class="chip c-free">безвиз</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Взаимное соглашение РБ–КНР. Потолок — 90 дней суммарно за календарный год. Открывает Хайнань (Санья) как тропический вариант.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Гонконг<span>HKG</span></td>
+            <td><span class="chip c-free">безвиз</span></td>
+            <td class="num">14 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Достаточно для 5–7 дней с запасом. Отдельная от материкового Китая квота.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Макао<span>MFM</span></td>
+            <td><span class="chip c-free">безвиз</span> <span class="chip c-paid">проверить</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">По агрегаторам — безвиз до 30 дней. Подтвердить на сайте Службы миграции Макао перед покупкой.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Мальдивы<span>MLE</span></td>
+            <td><span class="chip c-free">free VoA</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Бесплатная виза по прилёту для всех паспортов. Нужны бронь жилья и обратный билет. Дорогой перелёт и проживание.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Шри-Ланка<span>CMB</span></td>
+            <td><span class="chip c-free">free ETA</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">С 25.05.2026 ETA бесплатна для 40+ национальностей, включая РБ. Оформляется онлайн заранее, но денег не стоит.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Лаос<span>VTE · LPQ</span></td>
+            <td><span class="chip c-free">безвиз</span> <span class="chip c-paid">проверить</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Появился в списках безвиза для РБ в 2026 году. Как запасной, очень дешёвый вариант; подтвердить перед вылетом.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Катар<span>DOH</span></td>
+            <td><span class="chip c-free">безвиз</span> <span class="chip c-paid">проверить</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$0</td>
+            <td class="note">Не Азия-ЮВА, но открывает дешёвые связки Qatar Airways из DAD/SGN со стоповером в Дохе.</td>
+          </tr>
+          <tr class="s-paid">
+            <td class="place">Таиланд<span>BKK · DMK · HKT</span></td>
+            <td><span class="chip c-paid">VoA или e-Visa</span></td>
+            <td class="num">15 дней</td>
+            <td class="num">฿2 000 / $40</td>
+            <td class="note">РБ <b>не входит</b> в безвизовый список Таиланда. VoA — 2 000 THB <b>только наличными в батах</b>, 15 дней, без продления. Альтернатива: e-Visa $40 заранее — без очереди на границе. Обязательна TDAC за 72 ч до прилёта.</td>
+          </tr>
+          <tr class="s-paid">
+            <td class="place">Камбоджа<span>REP · PNH</span></td>
+            <td><span class="chip c-paid">eVisa / VoA</span></td>
+            <td class="num">30 дней</td>
+            <td class="num">$36 / $30</td>
+            <td class="note">eVisa онлайн $36 или VoA $30 в аэропорту. Ангкор-Ват в 1 ч 15 мин лёта от SGN — самый дешёвый «интересный» вариант вообще.</td>
+          </tr>
+          <tr class="s-block">
+            <td class="place">Филиппины<span>MNL · CEB</span></td>
+            <td><span class="chip c-block">виза 9(a)</span></td>
+            <td class="num">—</td>
+            <td class="num">посольство</td>
+            <td class="note">Безвиз по EO 408 на граждан РБ с обычным паспортом не распространяется — только на дипломатические и служебные. Вычёркиваем: Боракай и Палаван недостижимы в этом окне.</td>
+          </tr>
+          <tr class="s-block">
+            <td class="place">Сингапур<span>SIN</span></td>
+            <td><span class="chip c-block">виза</span></td>
+            <td class="num">—</td>
+            <td class="num">посольство</td>
+            <td class="note">РБ в Assessment Level I. Стерильный транзит без выхода в город возможен, самостоятельная пересадка — нет.</td>
+          </tr>
+          <tr class="s-block">
+            <td class="place">Южная Корея<span>ICN · PUS</span></td>
+            <td><span class="chip c-block">виза</span></td>
+            <td class="num">—</td>
+            <td class="num">посольство</td>
+            <td class="note">K-ETA гражданам РБ недоступна — она только для безвизовых национальностей. Это обидно: из CXR летают прямые на Сеул и Пусан.</td>
+          </tr>
+          <tr class="s-block">
+            <td class="place">Тайвань<span>TPE</span></td>
+            <td><span class="chip c-block">виза</span></td>
+            <td class="num">—</td>
+            <td class="num">посольство</td>
+            <td class="note">eVisa для РБ не открыта, Travel Authorization Certificate не распространяется.</td>
+          </tr>
+          <tr class="s-block">
+            <td class="place">Япония<span>NRT · KIX</span></td>
+            <td><span class="chip c-block">виза</span></td>
+            <td class="num">—</td>
+            <td class="num">посольство</td>
+            <td class="note">Наклейка, личная подача. В горизонте 20 дней нереально.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= DESTINATION MATRIX A ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Матрица направлений · категория А</h2>
+      <p>Близкий безвиз или лёгкая VoA, прямыми рейсами. Минимум точек отказа, минимум времени в пути, предсказуемая цена.</p>
+    </div>
+
+    <div class="scroller">
+      <table>
+        <caption>Оценка round-trip на одного, включая все сборы и багаж 20 кг; сентябрь-октябрь 2026</caption>
+        <thead>
+          <tr>
+            <th>Направление</th>
+            <th>Виза</th>
+            <th>Как лететь</th>
+            <th>RT, оценка</th>
+            <th>За и против</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="s-free">
+            <td class="place">Бали<span>DPS · Индонезия</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note"><b>DAD → DPS</b> AirAsia QZ481/480, прямой 4 ч 35 мин, по пн/ср/пт/вс.<br><b>SGN → DPS</b> Vietjet, прямой ~4 ч, ежедневно.</td>
+            <td class="num">$175–260</td>
+            <td class="note"><b>+</b> Океан, серф, Убуд, лучшая инфраструктура региона. Каннгу и Убуд — одни из сильнейших BJJ-залов Азии, можно сделать восстановительный кемп.<br><b>−</b> Прямой из DAD только 4 дня в неделю; из CXR прямых нет вовсе.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Куала-Лумпур<span>KUL · Малайзия</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note"><b>CXR → KUL</b> AirAsia, прямой — единственный крупный безвизовый хаб с прямым рейсом из Нячанга.<br>Также DAD → KUL и SGN → KUL.</td>
+            <td class="num">$120–180</td>
+            <td class="note"><b>+</b> Самый дешёвый вход в безвиз, прямой из CXR, база AirAsia — отсюда дешёвые стыковки дальше.<br><b>−</b> Город, а не отдых: сам по себе на 7 дней слабоват.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Лангкави<span>LGK · Малайзия</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note"><b>CXR/DAD/SGN → KUL → LGK</b>, вторая нога AirAsia 1 ч 05 мин, от 112 MYR.</td>
+            <td class="num">$170–260</td>
+            <td class="note"><b>+</b> Остров, пляжи, джунгли, канатка Sky Bridge, зона беспошлинной торговли — алкоголь дешевле, чем где-либо в регионе.<br><b>−</b> Одна пересадка. Сентябрь — край сезона дождей.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Пенанг<span>PEN · Малайзия</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note"><b>SGN → PEN</b> AirAsia прямой, 4 рейса в неделю. Либо через KUL, вторая нога от 119 MYR.</td>
+            <td class="num">$110–190</td>
+            <td class="note"><b>+</b> Самая дешёвая позиция в таблице. Джорджтаун в списке ЮНЕСКО, гастрономическая столица ЮВА.<br><b>−</b> Пляжи посредственные — это про еду и город, не про море.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Гонконг<span>HKG</span></td>
+            <td><span class="chip c-free">безвиз 14</span></td>
+            <td class="note"><b>DAD → HKG</b> HK Express прямой.<br><b>SGN → HKG</b> Vietjet / HK Express / Cathay, прямой ~2 ч 45 мин.</td>
+            <td class="num">$150–250</td>
+            <td class="note"><b>+</b> Прямой, короткий, мощный городской контраст. Отличный запасной хаб для self-transfer.<br><b>−</b> Дорогое проживание, 14 дней лимита, «отдыха» в пляжном смысле нет.</td>
+          </tr>
+          <tr class="s-paid">
+            <td class="place">Пхукет / Бангкок<span>HKT · BKK · DMK</span></td>
+            <td><span class="chip c-paid">฿2 000 или $40</span></td>
+            <td class="note"><b>CXR → BKK/DMK</b> Thai AirAsia / Thai Vietjet, прямой.<br><b>SGN → HKT</b> Vietjet / AirAsia, прямой.</td>
+            <td class="num">$100–190<br>+ виза</td>
+            <td class="note"><b>+</b> Самые дешёвые билеты и прямой рейс прямо из Нячанга. Пхукет — Tiger Muay Thai и Phuket Top Team, полноценный тренировочный лагерь.<br><b>−</b> Единственное направление с реальным визовым трением: 2 000 THB наличными или e-Visa $40, срок всего 15 дней, плюс правила Таиланда меняются 15.09.2026 — ровно в окно сценария А.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= DESTINATION MATRIX B ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Матрица направлений · категория Б</h2>
+      <p>Дальние и островные варианты со стыковками — там, где пересадка либо открывает недоступное иначе направление, либо режет цену. Все хабы в этой таблице подобраны так, чтобы белорусский паспорт мог легально пройти паспортный контроль на пересадке.</p>
+    </div>
+
+    <div class="scroller">
+      <table>
+        <caption>Стыковочные маршруты; хаб указан явно, потому что от него зависит легальность self-transfer</caption>
+        <thead>
+          <tr>
+            <th>Направление</th>
+            <th>Виза</th>
+            <th>Логика стыковки</th>
+            <th>RT, оценка</th>
+            <th>За и против</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="s-free">
+            <td class="place">Кота-Кинабалу<span>BKI · Борнео</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note">SGN/DAD → <b>KUL</b> → BKI, обе ноги AirAsia. Берётся как <b>Fly-Thru</b> — единый номер брони, багаж сквозной, стыковка защищена, но цена лоукостера.</td>
+            <td class="num">$230–320</td>
+            <td class="note"><b>+</b> Самое недооценённое место в списке: острова Тунку Абдул Рахман, дайвинг, орангутаны, гора Кинабалу. Мало туристов из СНГ.<br><b>−</b> Длинный день в пути (~9–11 ч с пересадкой).</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Санья, Хайнань<span>SYX · Китай</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note">SGN/HAN → <b>CAN или SZX</b> → SYX. Пересадка в Китае легальна — безвиз 30 дней покрывает и транзит с выходом.</td>
+            <td class="num">$200–320</td>
+            <td class="note"><b>+</b> Тропический пляжный курорт, куда почти никто из вьетнамской тусовки не ездит. Безвиз щедрый.<br><b>−</b> Языковой барьер жёсткий, нужен VPN и китайские платёжные приложения; PayPal внутри Китая почти бесполезен.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Ломбок и Гили<span>LOP · Индонезия</span></td>
+            <td><span class="chip c-free">безвиз 30</span></td>
+            <td class="note">DAD/SGN → <b>DPS</b> → быстрый катер на Гили (2–2,5 ч) либо перелёт DPS → LOP.</td>
+            <td class="num">$200–300</td>
+            <td class="note"><b>+</b> То же безвизовое окно, что и Бали, но без толп: Гили-Траванган, водопады Сендан-Гиле, вулкан Ринджани.<br><b>−</b> Катера зависят от погоды; в сентябре обычно спокойно, но это точка риска на обратном пути.</td>
+          </tr>
+          <tr class="s-paid">
+            <td class="place">Сием-Реап<span>REP · Камбоджа</span></td>
+            <td><span class="chip c-paid">eVisa $36</span></td>
+            <td class="note">SGN → REP прямой, 1 ч 15 мин. Формально прямой, но помещён сюда как «дёшево + интересно».</td>
+            <td class="num">$120–200<br>+ $36</td>
+            <td class="note"><b>+</b> Абсолютный минимум по деньгам и времени в пути при максимуме впечатлений — Ангкор.<br><b>−</b> Не отдых у моря; в сентябре жарко и влажно.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Шри-Ланка<span>CMB</span></td>
+            <td><span class="chip c-free">free ETA</span></td>
+            <td class="note">SGN → <b>KUL</b> → CMB (AirAsia, self-transfer легален) либо SGN → BKK → CMB — но второй вариант требует тайской визы на пересадке, поэтому только единым билетом.</td>
+            <td class="num">$320–480</td>
+            <td class="note"><b>+</b> Виза стала бесплатной с мая 2026. Океан, чай, сафари, серф в Аругам-Бэй.<br><b>−</b> 7 дней мало для такой страны; юго-западное побережье в сентябре под муссоном — ехать надо на восток.</td>
+          </tr>
+          <tr class="s-free">
+            <td class="place">Мальдивы<span>MLE</span></td>
+            <td><span class="chip c-free">free VoA</span></td>
+            <td class="note">SGN → <b>KUL</b> → MLE, AirAsia X. Хаб безвизовый, стыковка безопасна.</td>
+            <td class="num">$400–650</td>
+            <td class="note"><b>+</b> Виза бесплатна и выдаётся всем. Гестхаусы на местных островах (Маафуши, Укулхас) убирают миф о дороговизне.<br><b>−</b> Самый дорогой перелёт в подборке; экономия визарана съедается.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= SCENARIOS ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Два сценария по датам</h2>
+      <p>Даты сверены с календарём: 26.09.2026 — суббота, рейс AirAsia Дананг–Бали летает по понедельникам, средам, пятницам и воскресеньям. Стоимости в ногах — оценочные, сумма внизу каждого плана — ожидаемый итог «всё включено».</p>
+    </div>
+
+    <h3>Сценарий А · до соревнований, вылет 15–18.09</h3>
+    <p>Обратный рейс должен приземлиться минимум за сутки до схватки, поэтому реалистичная граница возврата — 24.09, а не 25.09. Это оставляет ровно 7 ночей и требует прямого рейса или пересадки строго в безвизовом хабе.</p>
+
+    <div class="plan alt">
+      <header>
+        <h4>А-1 · Нячанг → Куала-Лумпур → Лангкави и обратно в Нячанг</h4>
+        <span class="tag">без внутренних перелётов · возврат прямо в CXR</span>
+      </header>
+      <div class="legs">
+        <div class="leg">
+          <div class="leg-date">16.09<span>среда</span></div>
+          <div class="route">CXR <span class="arw">→</span> KUL<span>прямой, ~3 ч 40 мин</span></div>
+          <div class="leg-op">AirAsia<span>билет 1</span></div>
+          <div class="leg-cost">~$70</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">16.09<span>среда</span></div>
+          <div class="route">KUL <span class="arw">→</span> LGK<span>1 ч 05 мин, Fly-Thru</span></div>
+          <div class="leg-op">AirAsia<span>в том же билете</span></div>
+          <div class="leg-cost">~$28</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">23.09<span>среда</span></div>
+          <div class="route">LGK <span class="arw">→</span> KUL <span class="arw">→</span> CXR<span>обратно одним билетом</span></div>
+          <div class="leg-op">AirAsia<span>билет 2</span></div>
+          <div class="leg-cost">~$95</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">24.09<span>четверг</span></div>
+          <div class="route">в Нячанге<span>двое суток буфера до схватки</span></div>
+          <div class="leg-op">—<span>акклиматизация</span></div>
+          <div class="leg-cost">—</div>
+        </div>
+      </div>
+      <footer>
+        <span>Перелёты: <b>~$190–260</b> · визы: <b>$0</b> · 7 ночей</span>
+        <span>Сгорает дней текущего разрешения: <b>6</b></span>
+      </footer>
+    </div>
+
+    <div class="callout">
+      <p><b>Почему не Бали в сценарии А.</b> Расписание AirAsia сходится, но плохо: вылет DAD→DPS 16.09, возврат DPS→DAD 23.09 с прилётом в 17:55, дальше внутренний DAD→CXR уже на 24.09. Это три стыковки за двое суток до соревнований и ночёвка в Дананге. Возврат 25.09 (пятница) ещё хуже — прилёт в Нячанг около полуночи накануне турнира. Бали в сценарии А технически возможен, но спортивно нерационален.</p>
+    </div>
+
+    <h3>Сценарий Б · сразу после турнира, вылет 27–28.09 <span class="chip c-free">рекомендуется</span></h3>
+    <p>Разрешение действует до 30.09, вылет 27.09 укладывается с трёхдневным запасом. Никаких дедлайнов на обратном пути, поездка превращается в восстановление, и цена ниже за счёт более раннего букинга.</p>
+
+    <div class="plan">
+      <header>
+        <h4>Б-1 · Нячанг → Дананг → Бали, возврат в Дананг</h4>
+        <span class="tag">основной вариант · безвиз на обоих концах</span>
+      </header>
+      <div class="legs">
+        <div class="leg">
+          <div class="leg-date">27.09<span>воскресенье</span></div>
+          <div class="route">CXR <span class="arw">→</span> DAD<span>внутренний, ~1 ч 10 мин, утро</span></div>
+          <div class="leg-op">Vietjet / Bamboo<span>отдельный билет, VND</span></div>
+          <div class="leg-cost">~$25</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">27.09<span>воскресенье</span></div>
+          <div class="route">DAD <span class="arw">→</span> DPS<span>QZ481, вылет 19:05, 4 ч 35 мин</span></div>
+          <div class="leg-op">AirAsia Indonesia<span>прилёт ~00:40 по Бали</span></div>
+          <div class="leg-cost">~$75–95</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">04.10<span>воскресенье</span></div>
+          <div class="route">DPS <span class="arw">→</span> DAD<span>QZ480, вылет 14:15, прилёт 17:55</span></div>
+          <div class="leg-op">AirAsia Indonesia<span>новые 45 дней с этой даты</span></div>
+          <div class="leg-cost">~$75–95</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">04.10<span>воскресенье</span></div>
+          <div class="route">остаться в Дананге<span>или DAD → CXR утром 05.10</span></div>
+          <div class="leg-op">Vietjet<span>~$22, по желанию</span></div>
+          <div class="leg-cost">~$22</div>
+        </div>
+      </div>
+      <footer>
+        <span>Перелёты: <b>~$195–240</b> · визы: <b>$0</b> · 7 ночей на Бали</span>
+        <span>Новый статус во Вьетнаме до: <b>18.11.2026</b></span>
+      </footer>
+    </div>
+
+    <div class="plan">
+      <header>
+        <h4>Б-2 · Нячанг → Хошимин → Бали, возврат в Хошимин</h4>
+        <span class="tag">резерв · ежедневные прямые вместо 4 в неделю</span>
+      </header>
+      <div class="legs">
+        <div class="leg">
+          <div class="leg-date">28.09<span>понедельник</span></div>
+          <div class="route">CXR <span class="arw">→</span> SGN<span>внутренний, ~1 ч, много рейсов</span></div>
+          <div class="leg-op">Vietjet / Vietnam Airlines<span>отдельный билет, VND</span></div>
+          <div class="leg-cost">~$25</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">28.09<span>понедельник</span></div>
+          <div class="route">SGN <span class="arw">→</span> DPS<span>прямой, ~4 ч, ежедневно</span></div>
+          <div class="leg-op">Vietjet<span>самая гибкая дата вылета</span></div>
+          <div class="leg-cost">~$90–105</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">05.10<span>понедельник</span></div>
+          <div class="route">DPS <span class="arw">→</span> SGN<span>прямой, ~4 ч</span></div>
+          <div class="leg-op">Vietjet<span>новые 45 дней с этой даты</span></div>
+          <div class="leg-cost">~$85–105</div>
+        </div>
+      </div>
+      <footer>
+        <span>Перелёты: <b>~$200–235</b> · визы: <b>$0</b> · 7 ночей</span>
+        <span>Новый статус во Вьетнаме до: <b>19.11.2026</b></span>
+      </footer>
+    </div>
+
+    <div class="plan alt">
+      <header>
+        <h4>Б-3 · Бюджетный минимум: Нячанг → Куала-Лумпур → Пенанг</h4>
+        <span class="tag">полностью без внутренних перелётов</span>
+      </header>
+      <div class="legs">
+        <div class="leg">
+          <div class="leg-date">27.09<span>воскресенье</span></div>
+          <div class="route">CXR <span class="arw">→</span> KUL<span>прямой из Нячанга</span></div>
+          <div class="leg-op">AirAsia<span>Fly-Thru дальше</span></div>
+          <div class="leg-cost">~$70</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">27.09<span>воскресенье</span></div>
+          <div class="route">KUL <span class="arw">→</span> PEN<span>55 мин, от 119 MYR</span></div>
+          <div class="leg-op">AirAsia<span>в той же брони</span></div>
+          <div class="leg-cost">~$30</div>
+        </div>
+        <div class="leg">
+          <div class="leg-date">03.10<span>суббота</span></div>
+          <div class="route">PEN <span class="arw">→</span> KUL <span class="arw">→</span> CXR<span>обратно в Нячанг напрямую</span></div>
+          <div class="leg-op">AirAsia<span>без ночёвок в пути</span></div>
+          <div class="leg-cost">~$95</div>
+        </div>
+      </div>
+      <footer>
+        <span>Перелёты: <b>~$165–210</b> · визы: <b>$0</b> · 6 ночей</span>
+        <span>Единственный маршрут «дверь в дверь» из Нячанга</span>
+      </footer>
+    </div>
+
+    <div class="callout crit">
+      <p><b>Жёсткая граница.</b> Выехать нужно строго до 30.09.2026. Вылет 27.09 или 28.09 оставляет буфер в 2–3 дня на случай отмены рейса. Вылет 29–30.09 буфера не оставляет вообще — при отмене вы уходите в оверстей со штрафом и отметкой в паспорте. Не планируйте выезд на последние двое суток.</p>
+    </div>
+  </section>
+
+  <!-- ================= ARBITRAGE ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Арбитражные механики</h2>
+      <p>Четыре приёма, которые в этой конкретной конфигурации дают экономию, и один запрет, который важнее всех приёмов.</p>
+    </div>
+
+    <div class="callout crit">
+      <p><b>Запрет, определяющий всю схему стыковок.</b> Самостоятельная пересадка (self-transfer) означает получение багажа, проход паспортного контроля и повторную регистрацию. Для белорусского паспорта это законно <b>только</b> в Куала-Лумпуре, Гонконге, материковом Китае и внутри Вьетнама. В Сингапуре, Тайбэе, Сеуле и Маниле такая пересадка невозможна — там доступен только стерильный транзит по единому билету. Kiwi.com и подобные сервисы охотно продадут вам связку через SIN или TPE: такой билет для вас непригоден, сколько бы он ни экономил.</p>
+    </div>
+
+    <h3>Приём 1 · Разделить внутреннюю ногу и международную</h3>
+    <p>Сквозной билет CXR → DPS с пересадкой продаётся заметно дороже суммы двух отдельных. Покупайте внутренний CXR → DAD или CXR → SGN отдельно на сайте Vietjet в донгах (500 000–900 000 VND, то есть $20–35), а международную ногу — отдельным билетом. Это основная экономия во всех вариантах Б.</p>
+    <ul class="plain">
+      <li><b>Буфер.</b> Между стыковками ставьте минимум 3 часа в DAD и 4 часа в SGN — там смена терминалов, внутренний T1 и международный T2.</li>
+      <li><b>Багаж.</b> Сквозной регистрации не будет: получаете и сдаёте заново. Летите с одним местом до 20 кг.</li>
+      <li><b>Риск на себе.</b> Опоздание на второй билет никто не компенсирует. Именно поэтому в плане Б-1 внутренний перелёт стоит утром, а международный — вечером того же дня.</li>
+    </ul>
+
+    <h3>Приём 2 · Open-jaw, раз возврат разрешён в любой хаб</h3>
+    <p>Условие «вернуться можно в любой международный хаб» — это разрешение на открытую челюсть, и его стоит использовать. Вылет из DAD, возврат в SGN (или наоборот) регулярно оказывается дешевле симметричного round-trip, а заодно даёт вторую точку во Вьетнаме без отдельного билета. Проверяйте оба направления по отдельности: на лоукостерах два one-way почти всегда равны или дешевле round-trip, а гибкости дают больше.</p>
+
+    <h3>Приём 3 · Fly-Thru вместо самостоятельной пересадки в KUL</h3>
+    <p>Для всех маршрутов через Куала-Лумпур (Лангкави, Пенанг, Кота-Кинабалу, Мальдивы, Коломбо) берите связку как <b>AirAsia Fly-Thru</b> — это одна бронь, сквозной багаж и защищённая стыковка по цене лоукостера. Вы получаете страховку от опоздания, не теряя ценового преимущества. Это редкий случай, когда единый билет не дороже сплита.</p>
+
+    <h3>Приём 4 · Валюта и геоверсия сайта</h3>
+    <div class="scroller">
+      <table>
+        <caption>В какой валюте и на какой версии сайта покупать каждый сегмент</caption>
+        <thead>
+          <tr><th>Сегмент</th><th>Где покупать</th><th>Валюта</th><th>Почему</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="place">Внутренний по Вьетнаму<span>CXR–DAD · CXR–SGN</span></td>
+            <td>vietjetair.com, вьетнамская версия</td>
+            <td class="num">VND</td>
+            <td class="note">Локальная версия в донгах стабильно дешевле долларовой витрины того же рейса. Курс конвертации PayPal съест меньше, чем наценка витрины.</td>
+          </tr>
+          <tr>
+            <td class="place">Всё, что летит AirAsia<span>KUL · PEN · LGK · BKI · DPS</span></td>
+            <td>airasia.com, малайзийская версия</td>
+            <td class="num">MYR</td>
+            <td class="note">Домашний рынок перевозчика. Сравните с VND-витриной того же рейса — разница на одном билете доходит до 10–15%.</td>
+          </tr>
+          <tr>
+            <td class="place">Бали прямым из Хошимина<span>SGN–DPS</span></td>
+            <td>Vietjet напрямую, либо Trip.com</td>
+            <td class="num">VND / USD</td>
+            <td class="note">Vietjet дешевле в донгах; Trip.com берите, если нужен гарантированный PayPal и поддержка на понятном языке.</td>
+          </tr>
+          <tr>
+            <td class="place">Любой сегмент через агрегатор<span>сравнение</span></td>
+            <td>Trip.com, малайзийская или сингапурская версия</td>
+            <td class="num">MYR / SGD</td>
+            <td class="note">Сервисный сбор на региональных версиях ниже, чем на us.trip.com. Проверяйте одну и ту же бронь на двух версиях.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <p><b>Конвертация в PayPal — это ещё 3–4% цены.</b> На экране оплаты PayPal подставляет свой курс со спредом. Нажмите «Параметры конвертации» / «Conversion options» и выберите оплату <b>в валюте продавца</b> с конвертацией банком-эмитентом привязанной карты. На билете за $200 это $6–9 — сопоставимо с разницей между двумя направлениями.</p>
+    </div>
+
+    <h3>Где PayPal проходит гарантированно</h3>
+    <div class="scroller">
+      <table>
+        <caption>Платёжные каналы под жёсткое ограничение «только PayPal»</caption>
+        <thead>
+          <tr><th>Платформа</th><th>PayPal</th><th>Комментарий</th></tr>
+        </thead>
+        <tbody>
+          <tr class="s-free"><td class="place">Trip.com</td><td><span class="chip c-free">да</span></td><td class="note">Подтверждено на всех платформах — desktop, mobile web, iOS, Android. Самый надёжный универсальный канал, если сайт перевозчика откажет.</td></tr>
+          <tr class="s-free"><td class="place">AirAsia MOVE</td><td><span class="chip c-free">да</span></td><td class="note">PayPal в списке методов наряду с картами. Основной канал для всех малайзийских и индонезийских сегментов, включая рейс на Бали.</td></tr>
+          <tr class="s-free"><td class="place">Kiwi.com</td><td><span class="chip c-free">да</span></td><td class="note">PayPal есть, но <b>нельзя</b> комбинировать с Kiwi Credit. Полезен для поиска сплитов — с обязательной ручной проверкой на визовый запрет выше.</td></tr>
+          <tr class="s-free"><td class="place">Vietnam Airlines</td><td><span class="chip c-free">да</span></td><td class="note">PayPal на официальном сайте. Запасной канал для внутренних ног, если Vietjet откажет.</td></tr>
+          <tr class="s-free"><td class="place">Expedia · Agoda</td><td><span class="chip c-free">да</span></td><td class="note">PayPal на перелётах и отелях. Agoda удобна для жилья на Бали и в Малайзии.</td></tr>
+          <tr class="s-free"><td class="place">Scoot · Jetstar · Cebu Pacific</td><td><span class="chip c-free">да</span></td><td class="note">Все трое принимают PayPal напрямую. В этих маршрутах не нужны, но держите как резерв.</td></tr>
+          <tr class="s-paid"><td class="place">Vietjet, прямой сайт</td><td><span class="chip c-paid">не гарантирован</span></td><td class="note">Подтверждён PayPal через посредников (Alternative Airlines, Airpaz), на самом сайте набор методов зависит от геоверсии. <b>Проверяйте на шаге оплаты до того, как рассчитывать на этот канал</b>; при отказе берите тот же рейс на Trip.com.</td></tr>
+          <tr class="s-paid"><td class="place">HK Express</td><td><span class="chip c-paid">не подтверждён</span></td><td class="note">В списках принимающих PayPal не найден. Гонконг покупайте через Trip.com.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= ALGORITHM ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Пошаговый алгоритм выкупа</h2>
+      <p>Последовательность важна: каждый шаг снимает риск, который на следующем шаге стоил бы дороже. Общий срок — один вечер.</p>
+    </div>
+
+    <ol class="steps">
+      <li>
+        <h4>Подтвердить визовый вход по первичному источнику</h4>
+        <p>До любых покупок откройте сайт посольства или иммиграционной службы страны назначения и убедитесь, что режим для РБ тот, что в таблице. Критично для Индонезии — правило свежее, июля 2026, и агрегаторы ещё не везде его отразили.</p>
+        <ul>
+          <li>Индонезия — сайт Imigrasi, раздел безвизового въезда</li>
+          <li>Малайзия — Imigresen Malaysia, там же оформляется бесплатная MDAC</li>
+          <li>Если летите в Таиланд — статус VoA и текущая цена, правила менялись 15.09.2026</li>
+        </ul>
+      </li>
+      <li>
+        <h4>Проверить паспорт и подготовить PayPal</h4>
+        <p>Срок действия — минимум 6 месяцев после даты въезда, минимум 2 чистые страницы. Отдельно: пополните PayPal заранее и проведите один тестовый платёж на небольшую сумму. Отказ платежа в момент, когда вы держите тариф, стоит дороже, чем время на проверку.</p>
+      </li>
+      <li>
+        <h4>Снять живые цены по трём каналам одновременно</h4>
+        <p>Одни и те же даты, три вкладки. Расхождение между ними и есть ваш арбитраж.</p>
+        <ul>
+          <li>Сайт перевозчика в домашней валюте — airasia.com в MYR, vietjetair.com в VND</li>
+          <li>Trip.com в региональной версии (MY или SG)</li>
+          <li>Google Flights или Skyscanner — только чтобы увидеть, не появился ли неучтённый вариант</li>
+        </ul>
+      </li>
+      <li>
+        <h4>Сначала выкупить международную ногу</h4>
+        <p>Это дорогая и дефицитная часть; внутренний перелёт по Вьетнаму есть всегда и стоит копейки. Обратный сегмент берите в той же брони или сразу следом — именно дата возврата определяет ваш новый статус во Вьетнаме.</p>
+      </li>
+      <li>
+        <h4>Только потом — внутреннюю ногу, под фактическое время международной</h4>
+        <p>Когда у вас на руках точное время вылета из DAD или SGN, подберите внутренний рейс с буфером 3 часа (DAD) или 4 часа (SGN). Обратный внутренний не покупайте вовсе, пока не приземлитесь — он всегда есть и не подорожает существенно.</p>
+      </li>
+      <li>
+        <h4>Оформить въездные документы назначения</h4>
+        <ul>
+          <li>Малайзия — MDAC, бесплатно, не раньше чем за 3 дня до въезда</li>
+          <li>Индонезия — электронная таможенная декларация, за 2–3 дня</li>
+          <li>Таиланд, если выбран — TDAC за 72 часа, плюс e-Visa за $40 либо 2 000 THB наличными на границе</li>
+        </ul>
+      </li>
+      <li>
+        <h4>Подготовить доказательство выезда для обратного въезда во Вьетнам</h4>
+        <p>Авиакомпания на рейсе во Вьетнам вправе не посадить безвизового пассажира без подтверждения выезда. Обратный билет из вашей брони эту роль выполняет. Если летите в одну сторону — держите на телефоне билет или бронь на выезд в пределах 45 дней.</p>
+      </li>
+      <li>
+        <h4>Зафиксировать дату нового отсчёта</h4>
+        <p>По штампу о въезде проверьте, что вам поставили 45 дней, и запишите дату окончания. Для плана Б-1 это 18.11.2026. Разница между вашим расчётом и штампом — единственное, что реально способно сорвать следующий цикл.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ================= RISKS ================= -->
+  <section>
+    <div class="sec-head">
+      <h2>Что может пойти не так</h2>
+      <p>Точки отказа, отсортированные по вероятности, а не по драматичности.</p>
+    </div>
+    <ul class="plain">
+      <li><b>Цены выше указанных.</b> До сценария А остаётся 9 дней, до Б — 20. Это уже дорогая зона лоукостеров; диапазоны в таблицах взяты по типичным ценам маршрута, а не по вашему конкретному дню вылета. Покупать имеет смысл в ближайшие 48 часов.</li>
+      <li><b>Рейс Дананг–Бали летает 4 раза в неделю.</b> При отмене следующая возможность — через два дня, а не через два часа. Для сценария Б это некритично, для А — критично, поэтому в А стоит Малайзия.</li>
+      <li><b>PayPal отказывает на сайте Vietjet.</b> Единственная незакрытая позиция в платёжной схеме. Резерв — Trip.com на тот же рейс, с потерей примерно 3–5% на сервисном сборе.</li>
+      <li><b>Правила Таиланда в движении.</b> Изменения 15.09.2026 попадают ровно в окно сценария А. Если выбираете Таиланд — берите e-Visa заранее, а не VoA на границе, чтобы не зависеть от того, в какой редакции правил вас встретят.</li>
+      <li><b>Три строки визовой таблицы стоят на одиночном источнике</b> — Макао, Лаос, Катар. Ни одна из них не участвует в рекомендованных планах, но если захотите их взять — подтверждайте отдельно.</li>
+      <li><b>Односторонний безвиз Вьетнама продлевается постановлениями правительства.</b> На сентябрь 2026 он действует. Перед вылетом стоит один раз убедиться, что Беларусь всё ещё в списке 13 стран — это тридцать секунд и защита от самой дорогой из возможных ошибок.</li>
+    </ul>
+  </section>
+
+  <footer class="sources">
+    <h3>Источники</h3>
+    <ul>
+      <li><a href="https://www.myvietnamvisa.com/vietnam-45-day-visa-exemption.html">45-дневный безвиз Вьетнама, список 13 стран</a></li>
+      <li><a href="https://www.vietnamtourism.com/en/vietnam-visa-exemptions-which-nationalities-can-enter-visa-free">Vietnam Tourism — безвизовые национальности</a></li>
+      <li><a href="https://www.getvisavietnam.com/vietnam-visa-exemption-countries-duration/">Отмена паузы 30 дней между безвизовыми въездами</a></li>
+      <li><a href="https://smartpress.by/news/indoneziya-vvela-30-dnevnyy-bezviz-dlya-belorusov/">Индонезия ввела 30-дневный безвиз для белорусов</a></li>
+      <li><a href="https://www.visasupdate.com/post/indonesia-visa-free-belarus-2026">Indonesia visa-free for Belarus, июль 2026</a></li>
+      <li><a href="https://newsroom.airasia.com/news/2026/1/9/indonesia-airasia-launches-direct-balida-nang-route-strengthening-regional-tourism-connectivity-in-southeast-asia">AirAsia — запуск прямого Бали–Дананг</a></li>
+      <li><a href="https://thebalisun.com/new-bali-da-nang-flight-launches-in-march-2026-perfect-for-southeast-asia-vacations/">Расписание QZ480/481 и дни недели</a></li>
+      <li><a href="https://visitworld.today/thailand/belarus-citizenship/travel">Таиланд — правила въезда для граждан РБ</a></li>
+      <li><a href="https://visamanager.io/visas/thailand-visa-on-arrival">Thailand Visa on Arrival — новые правила 2026</a></li>
+      <li><a href="https://thethaiger.com/guides/visa-information/thailand-visa-exemption">Изменения безвиза Таиланда с 15.09.2026</a></li>
+      <li><a href="https://entryconditions.com/belarus/malaysia">Малайзия — безвиз 30 дней для РБ</a></li>
+      <li><a href="https://www.immd.gov.hk/eng/press/press-releases/20180213b.html">Гонконг — безвизовый режим с Беларусью</a></li>
+      <li><a href="https://www.travelchinaguide.com/embassy/china-visa-free-policy.htm">Китай — безвизовое соглашение с Беларусью</a></li>
+      <li><a href="https://visaby.com/viza_v_filippiny_dlja_belorusov">Филиппины — виза для белорусов обязательна</a></li>
+      <li><a href="https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/belarus">ICA Singapore — визовые требования для РБ</a></li>
+      <li><a href="https://kpmg.com/xx/en/our-insights/gms-flash-alert/2026/flash-alert-2026-024.html">K-ETA — список освобождённых стран</a></li>
+      <li><a href="https://visasnews.com/en/sri-lanka-makes-tourist-eta-free-for-40-nationalities-from-may-25/">Шри-Ланка — бесплатная ETA с 25.05.2026</a></li>
+      <li><a href="https://www.airasia.com/flights/from-kuala-lumpur-kul-to-langkawi-lgk/">AirAsia — тарифы KUL–Лангкави</a></li>
+      <li><a href="https://www.kayak.com/flight-routes/Ho-Chi-Minh-City-SGN/Kuala-Lumpur-Intl-KUL">Kayak — ценовой диапазон SGN–KUL</a></li>
+      <li><a href="https://www.kayak.com/flight-routes/Ho-Chi-Minh-City-SGN/Denpasar-Bali-Ngurah-Rai-DPS">Kayak — ценовой диапазон SGN–DPS</a></li>
+      <li><a href="https://www.kiwi.com/en/help/payments-and-invoices-264/article/payment-options-161/">Kiwi.com — методы оплаты, PayPal</a></li>
+      <li><a href="https://travelonthefly.com/which-airlines-accept-paypal-for-payment/">Список авиакомпаний, принимающих PayPal</a></li>
+      <li><a href="https://sg.trip.com/ask/questions/trip.com-payment-methods.html">Trip.com — методы оплаты</a></li>
+      <li><a href="https://www.tisland.travel/en/blog/aeroport-kamran-gid">Cam Ranh CXR — маршрутная сеть 2026</a></li>
+    </ul>
+  </footer>
+
+</div>
